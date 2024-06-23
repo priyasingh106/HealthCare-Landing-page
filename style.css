@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", "serif";
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;;
+}
+#logo img{
+    height: 40px;
+    margin-left: 80px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+ul li{
+    margin-right: 100px;
+    font-weight: bold;
+}
+li:hover{
+    color: rgb(53, 182, 53);
+}
+#appointment, #healthcare{
+    display: flex;
+}
+
+#healthcare{
+    background-image: url("./assets/stethoscope.png");
+    height: 800px;
+    width: 1200px;
+}
+#right-part{
+    width: 700px;
+    padding: 20px;
+    margin-left: 80px;
+    margin-top: 50px;;
+}
+#right-part img:first-child{
+    margin-bottom: 30px;;
+}
+#right-part img:nth-child(2){
+    margin: 0px 20px 0px 60px;
+    height: 25px;
+}
+#right-part img:nth-child(3){
+    margin-top: 50px;
+    height: 30px;
+}
+button{
+    color: #FFFFFF;
+    background-color: #266317;
+    /* font-weight: bold; */
+    font-size: 20px;;
+    border-radius: 20px;;
+    padding: 18px 20px;
+    margin: 40px 320px 0px 0px;
+    border: none;
+}
+h1{
+    font-weight: bolder;
+    font-size: 70px;;
+    line-height: 90px;;
+}
+p{
+    margin: 20px 0px;
+    color: rgb(128, 122, 122);
+    line-height: 25px;;
+}
+#img-segment{
+    height: 700px;
+    width: 800px;
+    margin-top: 100px;
+    margin-left: 260px;;
+}
+#img-segment img:first-child{
+    height: 490px;
+    z-index: 0;
+    position: relative;
+    right: 50px;
+
+}
+#img-segment img:nth-child(2){
+    height: 400px;
+    z-index: 1;
+    position: absolute;
+    bottom: 110px;
+    left: 1050px;
+}
+#img-segment img:nth-child(3){
+    height: 600px;
+    z-index: 2;
+    position: absolute;
+    bottom: 60px;
+    right: 100px;
+    margin-top: 70px;;
+}
